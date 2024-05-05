@@ -1,35 +1,24 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   bootstrap,
   html,
   css,
   reactjs,
-  redux,
+  springboot,
+  postgres,
+  angular,
+  typescript,
   tailwind,
   nodejs,
   mongodb,
-  git,
-  php,
-  jakarta,
-  smartphone,
-  blog,
-  adoptme,
-  crud,
-  medicalfile,
-  movie,
   mysql,
   lpm,
   ipeim,
   enis,
   lordroid,
   quebec,
-  microsoft,
-  fcc,
-  udemy,
+  spotify,
+  bl,
 } from "../assets";
 
 export const navLinks = [
@@ -54,19 +43,19 @@ export const navLinks = [
 const services = [
   {
     title: "Software Engineer",
-    icon: web,
+    icon: "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/web.png?raw=true",
   },
   {
     title: "Frontend Developer",
-    icon: mobile,
+    icon: "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/mobile.png?raw=true",
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/backend.png?raw=true",
   },
   {
     title: "Freelancer",
-    icon: creator,
+    icon: "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/creator.png?raw=true",
   },
 ];
 
@@ -84,12 +73,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Typescript",
+    icon: typescript,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Bootstrap 5",
@@ -104,12 +97,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "PHP",
-    icon: php,
-  },
-  {
-    name: "Jakarta EE",
-    icon: jakarta,
+    name: "Spring Boot",
+    icon: springboot,
   },
   {
     name: "MongoDB",
@@ -120,8 +109,8 @@ const technologies = [
     icon: mysql,
   },
   {
-    name: "Git",
-    icon: git,
+    name: "Postgres",
+    icon: postgres,
   },
 ];
 
@@ -133,8 +122,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2015 - 2019",
     points: [
-      "Pioneer High School of Monastir is a prestigious educational institution in Tunisia, known for academic excellence.",
-      "The school offers diverse programs and extracurricular activities to nurture students' talents and skills",
+      "Pioneer High School of Monastir is a prestigious educational institution in Tunisia known for academic excellence.",
+      "The school offers diverse programs and extracurricular activities to nurture students' talents and skills. ",
       "With dedicated educators, it fosters critical thinking and leadership development.",
       "The school provides a nurturing and enriching learning environment for students' holistic growth.",
     ],
@@ -182,9 +171,22 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2023 - August 2023",
     points: [
-      "During my enriching internship at Quebec Trang Center, I had the privilege to actively contribute to the creation of a dynamic full-stack JavaScript application utilizing the popular MERN stack.",
-      " This hands-on experience allowed me to delve deep into the intricacies of MongoDB, Express.js, React, and Node.js, gaining a comprehensive understanding of their functionalities and interactions.",
-      "Through my involvement in diverse projects, I honed my problem-solving abilities and learned to overcome technical challenges with creativity and efficiency.",
+      "Designed and developed an immersive language learningplatform utilizing Spring Boot microservices, Angular, andMySQL, featuring seamless multimedia integration for acomprehensive educational experience.",
+      "Developed user progress tracking and interactive communitytools",
+      "Implemented responsive design for consistent user experiences.",
+      "Ensured data security measures for user privacy.",
+    ],
+  },
+  {
+    title: "End of Studies Internship",
+    company_name: "Berger Levrault",
+    icon: bl,
+    iconBg: "#E6DEDD",
+    date: "March 2024 - August 2024",
+    points: [
+      "Creating an automation process for migrating from JSON to Protobuf and from REST to gRPC, with the goal of improving the efficiency and effectiveness of data exchanges for java applications.",
+      "Engagement in a software telemetry initiative aimed at enhancing the monitoring and analysis of web applications.",
+      "Contributing to the deployment of a real-time data collection and analysis solution.",
     ],
   },
 ];
@@ -194,40 +196,45 @@ const certifications = [
     certification: "The Complete React Redux Node Express MySql Developer",
     name: "Udemy",
     date: "Mar 2023",
-    image: udemy,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/udemy.png?raw=true",
   },
   {
     certification: "Front End Development Libraries ",
     name: "FreeCodeCamp",
     date: "Nov 2022",
-    image: fcc,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/fcc.png?raw=true",
   },
   {
     certification: "Responsive Web Design ",
     name: "FreeCodeCamp",
     date: "May 2022",
-    image: fcc,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/fcc.png?raw=true",
   },
   {
     certification: "JavaScript Algorithms and Data Structures ",
     name: "FreeCodeCamp",
     date: "Jun 2022",
-    image: fcc,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/fcc.png?raw=true",
   },
   {
     certification: "Azure Fundamentals",
     name: "Microsoft",
     date: "Jan 2023",
-    image: microsoft,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/microsoft.png?raw=true",
   },
   {
     certification: "Azure AI Fundamentals",
     name: "Microsoft",
     date: "Feb 2023",
-    image: microsoft,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/microsoft.png?raw=true",
   },
 ];
-
 const projects = [
   {
     name: "Smartphone Store",
@@ -247,7 +254,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: smartphone,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/smartphone.png?raw=true",
     source_code_link: "https://github.com/Bahri-Adem/Mobile-Store-MERN-APP",
   },
   {
@@ -268,7 +276,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: medicalfile,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/medicalfile.png?raw=true",
     source_code_link:
       "https://github.com/Bahri-Adem/Application-Web-Des-Patients",
   },
@@ -290,7 +299,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: blog,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/blog.png?raw=true",
     source_code_link: "https://github.com/Bahri-Adem/IT-Blog-Php",
   },
   {
@@ -311,30 +321,35 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: adoptme,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/adoptme.png?raw=true",
     source_code_link: "https://github.com/Bahri-Adem/AdoptMe-React-Application",
   },
   {
-    name: "Students Managment",
+    name: "Spotify Clone",
     description:
-      "Securely manage student profiles with authentication. Admins can view, create, update, and delete data, including name, email, age, and picture. Simplify student record management for educational institutions with ease.",
+      "Experience the future of music streaming with my Full Stack Spotify Clone. It offers seamless song uploads, secure payments, a sleek design, and features like real-time updates, favorites, and playlists. Dive into a complete music streaming experience.",
     tags: [
       {
-        name: "React",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "Express ",
+        name: "Tailwind ",
         color: "green-text-gradient",
       },
       {
-        name: "MongoDB",
+        name: "Supabase",
         color: "pink-text-gradient",
       },
+      {
+        name: "Stripe",
+        color: "orange-text-gradient",
+      },
     ],
-    image: crud,
+    image: spotify,
     source_code_link:
-      "https://github.com/Bahri-Adem/MERN-CRUD-APP-With-Login-and-Registration",
+      "https://github.com/Bahri-Adem/Full-Stack-Spotify-Clone-Next-13.4-React-Stripe-Supabase-Tailwind",
   },
   {
     name: "Movie Trailer",
@@ -354,7 +369,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: movie,
+    image:
+      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/movie.png?raw=true",
     source_code_link: "https://github.com/Bahri-Adem/React-Redux-Movie-Trailer",
   },
 ];
