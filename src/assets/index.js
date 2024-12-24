@@ -1,8 +1,10 @@
 import me from "./me.png";
 import spotify from "./Spotify_Clone.png";
+import cafe from "./Cafe.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import WhatsApp from "./WhatsApp_Clone.png";
 
 import css from "./tech/css.png";
 import html from "./tech/html.png";
@@ -50,4 +52,6 @@ export {
   ipeim,
   enis,
   bl,
+  cafe,
+  WhatsApp,
 };

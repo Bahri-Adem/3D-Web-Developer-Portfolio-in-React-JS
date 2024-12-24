@@ -49,11 +49,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I&apos;m a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like React, Node.js, and Express.js. I&apos;m a
-        quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let&apos;s work together to bring your ideas to life!
+      I am a freshly graduated software engineer from the National School of Engineers of Sfax, 
+      with a solid foundation in software development principles. 
+      
+      Eager to begin my professional journey, 
+      I seek opportunities as a junior Software Engineer. 
+      I aim to apply my theoretical knowledge and practical skills to contribute to innovative projects, 
+      collaborate with talented teams, and solve complex challenges. 
+      My goal is to grow my skills while exploring the diverse aspects of the field.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

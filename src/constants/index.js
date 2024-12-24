@@ -19,6 +19,8 @@ import {
   quebec,
   spotify,
   bl,
+  cafe,
+  WhatsApp,
 } from "../assets";
 
 export const navLinks = [
@@ -60,14 +62,7 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -111,6 +106,14 @@ const technologies = [
   {
     name: "Postgres",
     icon: postgres,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
 ];
 
@@ -171,7 +174,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2023 - August 2023",
     points: [
-      "Designed and developed an immersive language learningplatform utilizing Spring Boot microservices, Angular, andMySQL, featuring seamless multimedia integration for acomprehensive educational experience.",
+      "Designed and developed an immersive language learningplatform utilizing Spring Boot microservices, Angular, and MongoDB, featuring seamless multimedia integration for acomprehensive educational experience.",
       "Developed user progress tracking and interactive communitytools",
       "Implemented responsive design for consistent user experiences.",
       "Ensured data security measures for user privacy.",
@@ -184,9 +187,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "March 2024 - August 2024",
     points: [
-      "Creating an automation process for migrating from JSON to Protobuf and from REST to gRPC, with the goal of improving the efficiency and effectiveness of data exchanges for java applications.",
-      "Engagement in a software telemetry initiative aimed at enhancing the monitoring and analysis of web applications.",
-      "Contributing to the deployment of a real-time data collection and analysis solution.",
+      "Developed a financial management solution for local authorities with fewer than 2,000 inhabitants using the Spring Framework, Angular, and Microsoft SQL Server to streamline and secure data exchanges.",
+      "Integrated features such as electronic invoicing, teletransmission, and digital signatures to enhance efficiency and compliance with French public accounting standards.",
+      "Collaborated with end-users in focus groups to ensure the solution met their needs, enabling multi-budget and multi-collectivity management.",
+      "Deployed the solution as a SaaS, providing easy web access while ensuring robust data security and confidentiality through fine-grained user access controls."
     ],
   },
 ];
@@ -304,26 +308,28 @@ const projects = [
     source_code_link: "https://github.com/Bahri-Adem/IT-Blog-Php",
   },
   {
-    name: "Adopt Me",
+    name: "WhatsApp Clone",
     description:
-      "A compassionate platform connecting pet lovers with their furry soulmates. Simplifying pet adoption, users can explore a wide range of adorable animals seeking forever homes.",
+      "Experience seamless communication with my Full-Stack WhatsApp Clone. Enjoy real-time messaging, multimedia sharing, group chats, and secure conversations, all wrapped in a sleek, user-friendly design.",
     tags: [
       {
-        name: "React Js",
+        name: "Spring Boot",
         color: "blue-text-gradient",
       },
       {
-        name: "TailwindCSS",
+        name: "Angular",
         color: "green-text-gradient",
       },
       {
-        name: "React Query",
+        name: "PostGreSQL",
         color: "pink-text-gradient",
+      },      {
+        name: "Keycloak",
+        color: "orange-text-gradient",
       },
     ],
-    image:
-      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/adoptme.png?raw=true",
-    source_code_link: "https://github.com/Bahri-Adem/AdoptMe-React-Application",
+    image: WhatsApp,
+    source_code_link: "https://github.com/Bahri-Adem/Full-Stack-WhatsApp-Clone-SpringBoot-3-Angular-18-PostgreSQL-Keycloak-Bootstrap",
   },
   {
     name: "Spotify Clone",
@@ -352,26 +358,26 @@ const projects = [
       "https://github.com/Bahri-Adem/Full-Stack-Spotify-Clone-Next-13.4-React-Stripe-Supabase-Tailwind",
   },
   {
-    name: "Movie Trailer",
+    name: "Cafe Management System",
     description:
-      "This platform, akin to Netflix, provides users with an immersive experience through a vast collection of movie trailers. With an intuitive interface, users can effortlessly explore a diverse range of films and receive tailored recommendations based on their viewing preferences.",
+      "The Cafe Management System project aims to simplify cafeteria management by providing a comprehensive system that allows cafe owners to effortlessly create, modify, and print invoices, add and manage products, and control user access.",
     tags: [
       {
-        name: "React",
+        name: "Spring Boot",
         color: "blue-text-gradient",
       },
       {
-        name: "Redux ",
+        name: "Angular ",
         color: "green-text-gradient",
       },
       {
-        name: "NodeJS",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
     image:
-      "https://github.com/Bahri-Adem/3D-Web-Developer-Portfolio-in-React-JS/blob/main/src/assets/movie.png?raw=true",
-    source_code_link: "https://github.com/Bahri-Adem/React-Redux-Movie-Trailer",
+      cafe,
+    source_code_link: "https://github.com/Bahri-Adem/Cafe-Management-System-Angular-SpringBoot",
   },
 ];
 
