@@ -37,14 +37,3 @@ To explore my portfolio locally:
 3. Run the development server.
 4. Access the portfolio at `http://localhost:3000`.
 
-## Feedback and Contact
-
-I value your feedback! Feel free to reach out for questions, suggestions, or collaboration opportunities at [your-email@example.com](mailto:your-email@example.com).
-
-Let's connect on LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
-
-Thank you for visiting my portfolio! I hope you enjoy the experience as much as I enjoyed creating it.
-
----
-
-*Note: Insert a relevant screenshot of the portfolio in the "Portfolio Screenshot" section.*
